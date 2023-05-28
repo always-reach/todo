@@ -13,7 +13,5 @@ export default meta;
 type Story = StoryObj<typeof Sidebar>;
 
 export const Primary: Story = {
-  args: {
-    open: true,
-  },
+  args: {},
 };
